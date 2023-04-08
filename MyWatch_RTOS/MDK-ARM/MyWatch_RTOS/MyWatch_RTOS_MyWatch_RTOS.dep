@@ -1,0 +1,1562 @@
+Dependencies for Project 'MyWatch_RTOS', Target 'MyWatch_RTOS': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (startup_stm32f103xb.s)(0x64311292)(--cpu Cortex-M3 -g --apcs=interwork -I ../Inc-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xb.lst --xref -o mywatch_rtos\startup_stm32f103xb.o --depend mywatch_rtos\startup_stm32f103xb.d)
+F (../Src/main.c)(0x64311335)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\main.o --omf_browse mywatch_rtos\main.crf --depend mywatch_rtos\main.d)
+I (../Inc/main.h)(0x643027DA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x640B111B)
+I (../Inc/FreeRTOSConfig.h)(0x6431128F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x640B111B)
+I (../Inc/i2c.h)(0x6423EA36)
+I (../Inc/tim.h)(0x642BFF71)
+I (../Inc/gpio.h)(0x6423EA35)
+I (../oled/oled.h)(0x64242CE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (../AllInclude/AllInclude.h)(0x64301CFF)
+I (../Display/cartoon.h)(0x64242BC5)
+I (../oled/cartoonFont.h)(0x6424299A)
+I (../oled/MenuFont.h)(0x64242801)
+I (../oled/Font.h)(0x64242755)
+I (../Display/root.h)(0x64244879)
+I (../DS3231/DS3231.h)(0x643025D4)
+I (../AnalogI2C/AnalogI2C.h)(0x64242A6E)
+I (../Display/changeTime.h)(0x6430F1C5)
+I (../Display/Display.h)(0x64297CF8)
+I (../Display/menu.h)(0x642BD1E6)
+I (../Display/Timing.h)(0x642F8B3B)
+I (../Game/Game_Elem.h)(0x642F6E21)
+I (../oled/Game_Font.h)(0x642ECE36)
+I (../Display/Alarm.h)(0x64302412)
+I (../MPU6050/MPU6050.h)(0x64242B11)
+F (../Src/gpio.c)(0x6430ED5C)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\gpio.o --omf_browse mywatch_rtos\gpio.crf --depend mywatch_rtos\gpio.d)
+I (../Inc/gpio.h)(0x6423EA35)
+I (../Inc/main.h)(0x643027DA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (../Src/freertos.c)(0x643111CE)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\freertos.o --omf_browse mywatch_rtos\freertos.crf --depend mywatch_rtos\freertos.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x640B111B)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Inc/FreeRTOSConfig.h)(0x6431128F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x640B111B)
+I (../Inc/main.h)(0x643027DA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x640B111B)
+F (../Src/i2c.c)(0x6423EA36)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\i2c.o --omf_browse mywatch_rtos\i2c.crf --depend mywatch_rtos\i2c.d)
+I (../Inc/i2c.h)(0x6423EA36)
+I (../Inc/main.h)(0x643027DA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (../Src/tim.c)(0x642BFF71)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\tim.o --omf_browse mywatch_rtos\tim.crf --depend mywatch_rtos\tim.d)
+I (../Inc/tim.h)(0x642BFF71)
+I (../Inc/main.h)(0x643027DA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (../Src/stm32f1xx_it.c)(0x643027D9)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\stm32f1xx_it.o --omf_browse mywatch_rtos\stm32f1xx_it.crf --depend mywatch_rtos\stm32f1xx_it.d)
+I (../Inc/main.h)(0x643027DA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+I (../Inc/stm32f1xx_it.h)(0x642BFF71)
+F (../Src/stm32f1xx_hal_msp.c)(0x6423EA36)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\stm32f1xx_hal_msp.o --omf_browse mywatch_rtos\stm32f1xx_hal_msp.crf --depend mywatch_rtos\stm32f1xx_hal_msp.d)
+I (../Inc/main.h)(0x643027DA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (../Src/stm32f1xx_hal_timebase_tim.c)(0x6423EA36)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\stm32f1xx_hal_timebase_tim.o --omf_browse mywatch_rtos\stm32f1xx_hal_timebase_tim.crf --depend mywatch_rtos\stm32f1xx_hal_timebase_tim.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x640B1126)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\stm32f1xx_hal_gpio_ex.o --omf_browse mywatch_rtos\stm32f1xx_hal_gpio_ex.crf --depend mywatch_rtos\stm32f1xx_hal_gpio_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x640B1126)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\stm32f1xx_hal.o --omf_browse mywatch_rtos\stm32f1xx_hal.crf --depend mywatch_rtos\stm32f1xx_hal.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x640B1126)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\stm32f1xx_hal_rcc.o --omf_browse mywatch_rtos\stm32f1xx_hal_rcc.crf --depend mywatch_rtos\stm32f1xx_hal_rcc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x640B1126)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\stm32f1xx_hal_rcc_ex.o --omf_browse mywatch_rtos\stm32f1xx_hal_rcc_ex.crf --depend mywatch_rtos\stm32f1xx_hal_rcc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x640B1126)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\stm32f1xx_hal_gpio.o --omf_browse mywatch_rtos\stm32f1xx_hal_gpio.crf --depend mywatch_rtos\stm32f1xx_hal_gpio.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x640B1126)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\stm32f1xx_hal_dma.o --omf_browse mywatch_rtos\stm32f1xx_hal_dma.crf --depend mywatch_rtos\stm32f1xx_hal_dma.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x640B1126)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\stm32f1xx_hal_cortex.o --omf_browse mywatch_rtos\stm32f1xx_hal_cortex.crf --depend mywatch_rtos\stm32f1xx_hal_cortex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x640B1126)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\stm32f1xx_hal_pwr.o --omf_browse mywatch_rtos\stm32f1xx_hal_pwr.crf --depend mywatch_rtos\stm32f1xx_hal_pwr.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x640B1126)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\stm32f1xx_hal_flash.o --omf_browse mywatch_rtos\stm32f1xx_hal_flash.crf --depend mywatch_rtos\stm32f1xx_hal_flash.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x640B1126)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\stm32f1xx_hal_flash_ex.o --omf_browse mywatch_rtos\stm32f1xx_hal_flash_ex.crf --depend mywatch_rtos\stm32f1xx_hal_flash_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c)(0x640B1126)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\stm32f1xx_hal_exti.o --omf_browse mywatch_rtos\stm32f1xx_hal_exti.crf --depend mywatch_rtos\stm32f1xx_hal_exti.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c)(0x640B1126)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\stm32f1xx_hal_i2c.o --omf_browse mywatch_rtos\stm32f1xx_hal_i2c.crf --depend mywatch_rtos\stm32f1xx_hal_i2c.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x640B1126)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\stm32f1xx_hal_tim.o --omf_browse mywatch_rtos\stm32f1xx_hal_tim.crf --depend mywatch_rtos\stm32f1xx_hal_tim.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x640B1126)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\stm32f1xx_hal_tim_ex.o --omf_browse mywatch_rtos\stm32f1xx_hal_tim_ex.crf --depend mywatch_rtos\stm32f1xx_hal_tim_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (../Src/system_stm32f1xx.c)(0x640B1126)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\system_stm32f1xx.o --omf_browse mywatch_rtos\system_stm32f1xx.crf --depend mywatch_rtos\system_stm32f1xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (../Middlewares/Third_Party/FreeRTOS/Source/croutine.c)(0x640B111B)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\croutine.o --omf_browse mywatch_rtos\croutine.crf --depend mywatch_rtos\croutine.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x640B111B)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Inc/FreeRTOSConfig.h)(0x6431128F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h)(0x640B111B)
+F (../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c)(0x640B111B)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\event_groups.o --omf_browse mywatch_rtos\event_groups.crf --depend mywatch_rtos\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x640B111B)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Inc/FreeRTOSConfig.h)(0x6431128F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x640B111B)
+F (../Middlewares/Third_Party/FreeRTOS/Source/list.c)(0x640B111B)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\list.o --omf_browse mywatch_rtos\list.crf --depend mywatch_rtos\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x640B111B)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Inc/FreeRTOSConfig.h)(0x6431128F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x640B111B)
+F (../Middlewares/Third_Party/FreeRTOS/Source/queue.c)(0x640B111B)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\queue.o --omf_browse mywatch_rtos\queue.crf --depend mywatch_rtos\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x640B111B)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Inc/FreeRTOSConfig.h)(0x6431128F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x640B111B)
+F (../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c)(0x640B111B)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\stream_buffer.o --omf_browse mywatch_rtos\stream_buffer.crf --depend mywatch_rtos\stream_buffer.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x640B111B)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Inc/FreeRTOSConfig.h)(0x6431128F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h)(0x640B111B)
+F (../Middlewares/Third_Party/FreeRTOS/Source/tasks.c)(0x640B111B)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\tasks.o --omf_browse mywatch_rtos\tasks.crf --depend mywatch_rtos\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x640B111B)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Inc/FreeRTOSConfig.h)(0x6431128F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h)(0x640B111B)
+F (../Middlewares/Third_Party/FreeRTOS/Source/timers.c)(0x640B111B)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\timers.o --omf_browse mywatch_rtos\timers.crf --depend mywatch_rtos\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x640B111B)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Inc/FreeRTOSConfig.h)(0x6431128F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x640B111B)
+F (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c)(0x640B111B)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\cmsis_os.o --omf_browse mywatch_rtos\cmsis_os.crf --depend mywatch_rtos\cmsis_os.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x640B111B)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Inc/FreeRTOSConfig.h)(0x6431128F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x640B111B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c)(0x640B111B)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\heap_4.o --omf_browse mywatch_rtos\heap_4.crf --depend mywatch_rtos\heap_4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x640B111B)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Inc/FreeRTOSConfig.h)(0x6431128F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x640B111B)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c)(0x640B111B)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\port.o --omf_browse mywatch_rtos\port.crf --depend mywatch_rtos\port.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x640B111B)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Inc/FreeRTOSConfig.h)(0x6431128F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x640B111B)
+F (..\Base_Fun\key.c)(0x64311335)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\key.o --omf_browse mywatch_rtos\key.crf --depend mywatch_rtos\key.d)
+I (..\Base_Fun\Base.h)(0x64301EE2)
+I (../Inc/gpio.h)(0x6423EA35)
+I (../Inc/main.h)(0x643027DA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+I (../Task/Public.h)(0x643000A1)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x640B111B)
+I (../Inc/FreeRTOSConfig.h)(0x6431128F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x640B111B)
+I (../Task/task.h)(0x6430F6BC)
+I (../AllInclude/AllInclude.h)(0x64301CFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (../oled/oled.h)(0x64242CE2)
+I (../Display/cartoon.h)(0x64242BC5)
+I (../oled/cartoonFont.h)(0x6424299A)
+I (../oled/MenuFont.h)(0x64242801)
+I (../oled/Font.h)(0x64242755)
+I (../Display/root.h)(0x64244879)
+I (../Inc/i2c.h)(0x6423EA36)
+I (../DS3231/DS3231.h)(0x643025D4)
+I (../AnalogI2C/AnalogI2C.h)(0x64242A6E)
+I (../Display/changeTime.h)(0x6430F1C5)
+I (../Display/Display.h)(0x64297CF8)
+I (../Display/menu.h)(0x642BD1E6)
+I (../Display/Timing.h)(0x642F8B3B)
+I (../Game/Game_Elem.h)(0x642F6E21)
+I (../oled/Game_Font.h)(0x642ECE36)
+I (../Display/Alarm.h)(0x64302412)
+I (../MPU6050/MPU6050.h)(0x64242B11)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x640B111B)
+I (../Base_Fun/Base.h)(0x64301EE2)
+F (..\Base_Fun\LED.c)(0x6423F064)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\led.o --omf_browse mywatch_rtos\led.crf --depend mywatch_rtos\led.d)
+I (..\Base_Fun\Base.h)(0x64301EE2)
+I (../Inc/gpio.h)(0x6423EA35)
+I (../Inc/main.h)(0x643027DA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+I (../Task/Public.h)(0x643000A1)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x640B111B)
+I (../Inc/FreeRTOSConfig.h)(0x6431128F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x640B111B)
+I (../Task/task.h)(0x6430F6BC)
+I (../AllInclude/AllInclude.h)(0x64301CFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (../oled/oled.h)(0x64242CE2)
+I (../Display/cartoon.h)(0x64242BC5)
+I (../oled/cartoonFont.h)(0x6424299A)
+I (../oled/MenuFont.h)(0x64242801)
+I (../oled/Font.h)(0x64242755)
+I (../Display/root.h)(0x64244879)
+I (../Inc/i2c.h)(0x6423EA36)
+I (../DS3231/DS3231.h)(0x643025D4)
+I (../AnalogI2C/AnalogI2C.h)(0x64242A6E)
+I (../Display/changeTime.h)(0x6430F1C5)
+I (../Display/Display.h)(0x64297CF8)
+I (../Display/menu.h)(0x642BD1E6)
+I (../Display/Timing.h)(0x642F8B3B)
+I (../Game/Game_Elem.h)(0x642F6E21)
+I (../oled/Game_Font.h)(0x642ECE36)
+I (../Display/Alarm.h)(0x64302412)
+I (../MPU6050/MPU6050.h)(0x64242B11)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x640B111B)
+I (../Base_Fun/Base.h)(0x64301EE2)
+F (..\oled\font.c)(0x642446A3)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\font.o --omf_browse mywatch_rtos\font.crf --depend mywatch_rtos\font.d)
+I (..\oled\font.h)(0x64242755)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (..\oled\oled.c)(0x64244047)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\oled.o --omf_browse mywatch_rtos\oled.crf --depend mywatch_rtos\oled.d)
+I (..\oled\oled.h)(0x64242CE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\oled\font.h)(0x64242755)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+I (../Inc/i2c.h)(0x6423EA36)
+I (../Inc/main.h)(0x643027DA)
+F (..\oled\MenuFont.c)(0x642F6C39)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\menufont.o --omf_browse mywatch_rtos\menufont.crf --depend mywatch_rtos\menufont.d)
+I (..\oled\MenuFont.h)(0x64242801)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+F (..\oled\cartoonFont.c)(0x64242A01)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\cartoonfont.o --omf_browse mywatch_rtos\cartoonfont.crf --depend mywatch_rtos\cartoonfont.d)
+I (..\oled\cartoonFont.h)(0x6424299A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+F (..\oled\Game_Font.c)(0x642ECE36)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\game_font.o --omf_browse mywatch_rtos\game_font.crf --depend mywatch_rtos\game_font.d)
+I (..\oled\Game_Font.h)(0x642ECE36)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+F (..\AnalogI2C\AnalogI2C.c)(0x641C4FCA)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\analogi2c.o --omf_browse mywatch_rtos\analogi2c.crf --depend mywatch_rtos\analogi2c.d)
+I (..\AnalogI2C\AnalogI2C.h)(0x64242A6E)
+I (../Inc/gpio.h)(0x6423EA35)
+I (../Inc/main.h)(0x643027DA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (..\MPU6050\mpu6050.c)(0x642BD5B0)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\mpu6050.o --omf_browse mywatch_rtos\mpu6050.crf --depend mywatch_rtos\mpu6050.d)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x60252378)
+I (..\MPU6050\MPU6050.h)(0x64242B11)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../AnalogI2C/AnalogI2C.h)(0x64242A6E)
+I (../Inc/gpio.h)(0x6423EA35)
+I (../Inc/main.h)(0x643027DA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (..\DS3231\DS3231.c)(0x643025C3)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\ds3231.o --omf_browse mywatch_rtos\ds3231.crf --depend mywatch_rtos\ds3231.d)
+I (..\DS3231\DS3231.h)(0x643025D4)
+I (../AnalogI2C/AnalogI2C.h)(0x64242A6E)
+I (../Inc/gpio.h)(0x6423EA35)
+I (../Inc/main.h)(0x643027DA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+F (..\Display\cartoon.c)(0x641AA66D)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\cartoon.o --omf_browse mywatch_rtos\cartoon.crf --depend mywatch_rtos\cartoon.d)
+I (..\Display\cartoon.h)(0x64242BC5)
+I (..\oled\cartoonFont.h)(0x6424299A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\oled\oled.h)(0x64242CE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+F (..\Display\root.c)(0x642F7742)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\root.o --omf_browse mywatch_rtos\root.crf --depend mywatch_rtos\root.d)
+I (..\Display\root.h)(0x64244879)
+I (../AllInclude/AllInclude.h)(0x64301CFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (../oled/oled.h)(0x64242CE2)
+I (../Display/cartoon.h)(0x64242BC5)
+I (../oled/cartoonFont.h)(0x6424299A)
+I (../oled/MenuFont.h)(0x64242801)
+I (../oled/Font.h)(0x64242755)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+I (../Display/root.h)(0x64244879)
+I (../Display/changeTime.h)(0x6430F1C5)
+I (../Display/Display.h)(0x64297CF8)
+I (../Inc/i2c.h)(0x6423EA36)
+I (../Inc/main.h)(0x643027DA)
+I (../Display/menu.h)(0x642BD1E6)
+I (../Display/Timing.h)(0x642F8B3B)
+I (../Game/Game_Elem.h)(0x642F6E21)
+I (../oled/Game_Font.h)(0x642ECE36)
+I (../Display/Alarm.h)(0x64302412)
+I (../DS3231/DS3231.h)(0x643025D4)
+I (../AnalogI2C/AnalogI2C.h)(0x64242A6E)
+I (../Inc/gpio.h)(0x6423EA35)
+I (../MPU6050/MPU6050.h)(0x64242B11)
+F (..\Display\changeTime.c)(0x6430F13C)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\changetime.o --omf_browse mywatch_rtos\changetime.crf --depend mywatch_rtos\changetime.d)
+I (..\Display\changeTime.h)(0x6430F1C5)
+I (../AllInclude/AllInclude.h)(0x64301CFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (../oled/oled.h)(0x64242CE2)
+I (../Display/cartoon.h)(0x64242BC5)
+I (../oled/cartoonFont.h)(0x6424299A)
+I (../oled/MenuFont.h)(0x64242801)
+I (../oled/Font.h)(0x64242755)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+I (../Display/root.h)(0x64244879)
+I (../Inc/i2c.h)(0x6423EA36)
+I (../Inc/main.h)(0x643027DA)
+I (../DS3231/DS3231.h)(0x643025D4)
+I (../AnalogI2C/AnalogI2C.h)(0x64242A6E)
+I (../Inc/gpio.h)(0x6423EA35)
+I (../Display/changeTime.h)(0x6430F1C5)
+I (../Display/Display.h)(0x64297CF8)
+I (../Display/menu.h)(0x642BD1E6)
+I (../Display/Timing.h)(0x642F8B3B)
+I (../Game/Game_Elem.h)(0x642F6E21)
+I (../oled/Game_Font.h)(0x642ECE36)
+I (../Display/Alarm.h)(0x64302412)
+I (../MPU6050/MPU6050.h)(0x64242B11)
+F (..\Display\Display.c)(0x643022C7)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\display.o --omf_browse mywatch_rtos\display.crf --depend mywatch_rtos\display.d)
+I (..\Display\Display.h)(0x64297CF8)
+I (../AllInclude/AllInclude.h)(0x64301CFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (../oled/oled.h)(0x64242CE2)
+I (../Display/cartoon.h)(0x64242BC5)
+I (../oled/cartoonFont.h)(0x6424299A)
+I (../oled/MenuFont.h)(0x64242801)
+I (../oled/Font.h)(0x64242755)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+I (../Display/root.h)(0x64244879)
+I (../Inc/i2c.h)(0x6423EA36)
+I (../Inc/main.h)(0x643027DA)
+I (../DS3231/DS3231.h)(0x643025D4)
+I (../AnalogI2C/AnalogI2C.h)(0x64242A6E)
+I (../Inc/gpio.h)(0x6423EA35)
+I (../Display/changeTime.h)(0x6430F1C5)
+I (../Display/Display.h)(0x64297CF8)
+I (../Display/menu.h)(0x642BD1E6)
+I (../Display/Timing.h)(0x642F8B3B)
+I (../Game/Game_Elem.h)(0x642F6E21)
+I (../oled/Game_Font.h)(0x642ECE36)
+I (../Display/Alarm.h)(0x64302412)
+I (../MPU6050/MPU6050.h)(0x64242B11)
+F (..\Display\Timing.c)(0x642F8AFE)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\timing.o --omf_browse mywatch_rtos\timing.crf --depend mywatch_rtos\timing.d)
+I (..\Display\Timing.h)(0x642F8B3B)
+I (../AllInclude/AllInclude.h)(0x64301CFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (../oled/oled.h)(0x64242CE2)
+I (../Display/cartoon.h)(0x64242BC5)
+I (../oled/cartoonFont.h)(0x6424299A)
+I (../oled/MenuFont.h)(0x64242801)
+I (../oled/Font.h)(0x64242755)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+I (../Display/root.h)(0x64244879)
+I (../Inc/i2c.h)(0x6423EA36)
+I (../Inc/main.h)(0x643027DA)
+I (../DS3231/DS3231.h)(0x643025D4)
+I (../AnalogI2C/AnalogI2C.h)(0x64242A6E)
+I (../Inc/gpio.h)(0x6423EA35)
+I (../Display/changeTime.h)(0x6430F1C5)
+I (../Display/Display.h)(0x64297CF8)
+I (../Display/menu.h)(0x642BD1E6)
+I (../Display/Timing.h)(0x642F8B3B)
+I (../Game/Game_Elem.h)(0x642F6E21)
+I (../oled/Game_Font.h)(0x642ECE36)
+I (../Display/Alarm.h)(0x64302412)
+I (../MPU6050/MPU6050.h)(0x64242B11)
+F (..\Display\Alarm.c)(0x64310DBC)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\alarm.o --omf_browse mywatch_rtos\alarm.crf --depend mywatch_rtos\alarm.d)
+I (..\Display\Alarm.h)(0x64302412)
+I (../AllInclude/AllInclude.h)(0x64301CFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (../oled/oled.h)(0x64242CE2)
+I (../Display/cartoon.h)(0x64242BC5)
+I (../oled/cartoonFont.h)(0x6424299A)
+I (../oled/MenuFont.h)(0x64242801)
+I (../oled/Font.h)(0x64242755)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+I (../Display/root.h)(0x64244879)
+I (../Inc/i2c.h)(0x6423EA36)
+I (../Inc/main.h)(0x643027DA)
+I (../DS3231/DS3231.h)(0x643025D4)
+I (../AnalogI2C/AnalogI2C.h)(0x64242A6E)
+I (../Inc/gpio.h)(0x6423EA35)
+I (../Display/changeTime.h)(0x6430F1C5)
+I (../Display/Display.h)(0x64297CF8)
+I (../Display/menu.h)(0x642BD1E6)
+I (../Display/Timing.h)(0x642F8B3B)
+I (../Game/Game_Elem.h)(0x642F6E21)
+I (../oled/Game_Font.h)(0x642ECE36)
+I (../Display/Alarm.h)(0x64302412)
+I (../MPU6050/MPU6050.h)(0x64242B11)
+F (..\Task\Task.c)(0x643113D7)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\task.o --omf_browse mywatch_rtos\task.crf --depend mywatch_rtos\task.d)
+I (..\Task\Task.h)(0x6430F6BC)
+I (..\Task\Public.h)(0x643000A1)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x640B111B)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Inc/FreeRTOSConfig.h)(0x6431128F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x640B111B)
+I (../Inc/main.h)(0x643027DA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x640B111B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x640B111B)
+I (../Base_Fun/Base.h)(0x64301EE2)
+I (../Inc/gpio.h)(0x6423EA35)
+I (../Task/Public.h)(0x643000A1)
+I (../AllInclude/AllInclude.h)(0x64301CFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (../oled/oled.h)(0x64242CE2)
+I (../Display/cartoon.h)(0x64242BC5)
+I (../oled/cartoonFont.h)(0x6424299A)
+I (../oled/MenuFont.h)(0x64242801)
+I (../oled/Font.h)(0x64242755)
+I (../Display/root.h)(0x64244879)
+I (../Inc/i2c.h)(0x6423EA36)
+I (../DS3231/DS3231.h)(0x643025D4)
+I (../AnalogI2C/AnalogI2C.h)(0x64242A6E)
+I (../Display/changeTime.h)(0x6430F1C5)
+I (../Display/Display.h)(0x64297CF8)
+I (../Display/menu.h)(0x642BD1E6)
+I (../Display/Timing.h)(0x642F8B3B)
+I (../Game/Game_Elem.h)(0x642F6E21)
+I (../oled/Game_Font.h)(0x642ECE36)
+I (../Display/Alarm.h)(0x64302412)
+I (../MPU6050/MPU6050.h)(0x64242B11)
+I (../Inc/tim.h)(0x642BFF71)
+F (..\Menu\menu.c)(0x642F8B84)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\menu.o --omf_browse mywatch_rtos\menu.crf --depend mywatch_rtos\menu.d)
+I (..\Menu\menu.h)(0x641C6234)
+I (../AllInclude/allInclude.h)(0x64301CFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (../oled/oled.h)(0x64242CE2)
+I (../Display/cartoon.h)(0x64242BC5)
+I (../oled/cartoonFont.h)(0x6424299A)
+I (../oled/MenuFont.h)(0x64242801)
+I (../oled/Font.h)(0x64242755)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
+I (../Display/root.h)(0x64244879)
+I (../Inc/i2c.h)(0x6423EA36)
+I (../Inc/main.h)(0x643027DA)
+I (../DS3231/DS3231.h)(0x643025D4)
+I (../AnalogI2C/AnalogI2C.h)(0x64242A6E)
+I (../Inc/gpio.h)(0x6423EA35)
+I (../Display/changeTime.h)(0x6430F1C5)
+I (../Display/Display.h)(0x64297CF8)
+I (../Display/menu.h)(0x642BD1E6)
+I (../Display/Timing.h)(0x642F8B3B)
+I (../Game/Game_Elem.h)(0x642F6E21)
+I (../oled/Game_Font.h)(0x642ECE36)
+I (../Display/Alarm.h)(0x64302412)
+I (../MPU6050/MPU6050.h)(0x64242B11)
+F (..\Game\Game_Elem.c)(0x642F7068)(--c99 -c --cpu Cortex-M3 -g -W -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Base_Fun -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../oled -I ../MPU6050 -I ../AnalogI2C -I ../Display -I ../DS3231 -I ../AllInclude -I ../Task -I ../Menu -I ../Game-I.\RTE\_MyWatch_RTOS-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o mywatch_rtos\game_elem.o --omf_browse mywatch_rtos\game_elem.crf --depend mywatch_rtos\game_elem.d)
+I (..\Game\Game_Elem.h)(0x642F6E21)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../oled/oled.h)(0x64242CE2)
+I (../oled/Game_Font.h)(0x642ECE36)
+I (../MPU6050/mpu6050.h)(0x64242B11)
+I (../AnalogI2C/AnalogI2C.h)(0x64242A6E)
+I (../Inc/gpio.h)(0x6423EA35)
+I (../Inc/main.h)(0x643027DA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x640B1126)
+I (../Inc/stm32f1xx_hal_conf.h)(0x6423EA36)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x640B1126)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x640B1126)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x640B111A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x640B111A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x640B1126)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x640B1126)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x640B1126)
