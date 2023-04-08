@@ -1,0 +1,137 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: sad. Administrator, ad, LIC=32B1Q-NA0UM-12YLE-5DSMR-RS74S-3KYY3
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.19
+Assembler:       Armasm.exe V6.19
+Linker/Locator:  ArmLink.exe V6.19
+Library Manager: ArmAr.exe V6.19
+Hex Converter:   FromElf.exe V6.19
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.1.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\MYWatch\OLED\MDK-ARM\OLED.uvprojx
+Project File Date:  03/20/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.19', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'OLED'
+assembling startup_stm32f103xb.s...
+compiling main.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling tim.c...
+compiling i2c.c...
+compiling gpio.c...
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling system_stm32f1xx.c...
+compiling font.c...
+../time/time.c(45): warning: passing 'const unsigned char[]' to parameter of type 'uint8_t *' (aka 'unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        sec % 2 == 0 ? OLED_ShowImage(fix+w*2,1,w,h,timeSplit) : OLED_ClearImage(fix+w*2,1,w,h);
+                                                    ^~~~~~~~~
+../OLED\oled.h(37): note: passing argument to parameter 'Image' here
+void OLED_ShowImage(uint8_t x,uint8_t y,uint8_t w,uint8_t h,uint8_t *Image);
+                                                                     ^
+../time/time.c(64): warning: passing 'char[8]' to parameter of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+        OLED_ShowString(0,0,Days_Display,8);
+                            ^~~~~~~~~~~~
+../OLED\oled.h(34): note: passing argument to parameter 'chr' here
+void OLED_ShowString(uint8_t x,uint8_t y,uint8_t *chr,uint8_t Char_Size);
+                                                  ^
+../time/time.c(65): warning: passing 'char *' to parameter of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+        OLED_ShowString(104,0,weeks[week],8);
+                              ^~~~~~~~~~~
+../OLED\oled.h(34): note: passing argument to parameter 'chr' here
+void OLED_ShowString(uint8_t x,uint8_t y,uint8_t *chr,uint8_t Char_Size);
+                                                  ^
+../time/time.c(73): warning: returning 'const unsigned char[]' from a function with result type 'uint8_t *' (aka 'unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                        return time0;
+                               ^~~~~
+../time/time.c(75): warning: returning 'const unsigned char[]' from a function with result type 'uint8_t *' (aka 'unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                        return time1;
+                               ^~~~~
+../time/time.c(77): warning: returning 'const unsigned char[]' from a function with result type 'uint8_t *' (aka 'unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                        return time2;
+                               ^~~~~
+../time/time.c(79): warning: returning 'const unsigned char[]' from a function with result type 'uint8_t *' (aka 'unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                        return time3;
+                               ^~~~~
+../time/time.c(81): warning: returning 'const unsigned char[]' from a function with result type 'uint8_t *' (aka 'unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                        return time4;
+                               ^~~~~
+../time/time.c(83): warning: returning 'const unsigned char[]' from a function with result type 'uint8_t *' (aka 'unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                        return time5;
+                               ^~~~~
+../time/time.c(85): warning: returning 'const unsigned char[]' from a function with result type 'uint8_t *' (aka 'unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                        return time6;
+                               ^~~~~
+../time/time.c(87): warning: returning 'const unsigned char[]' from a function with result type 'uint8_t *' (aka 'unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                        return time7;
+                               ^~~~~
+../time/time.c(89): warning: returning 'const unsigned char[]' from a function with result type 'uint8_t *' (aka 'unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                        return time8;
+                               ^~~~~
+../time/time.c(91): warning: returning 'const unsigned char[]' from a function with result type 'uint8_t *' (aka 'unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                        return time9;
+                               ^~~~~
+../time/time.c(93): warning: returning 'const unsigned char[]' from a function with result type 'uint8_t *' (aka 'unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                        return time9;
+                               ^~~~~
+14 warnings generated.
+compiling time.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling oled.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal_i2c.c...
+linking...
+Program Size: Code=9574 RO-data=4082 RW-data=88 ZI-data=1800  
+FromELF: creating hex file...
+"OLED\OLED.axf" - 0 Error(s), 14 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.0.pack
+                Keil.STM32F1xx_DFP.2.4.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_OLED
+  C:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
