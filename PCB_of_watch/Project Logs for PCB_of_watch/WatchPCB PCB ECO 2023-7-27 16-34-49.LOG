@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=BEEP Pin=U1-25
+Removed Pin From Net: NetName=SW1 Pin=U1-26
+Added Pin To Net: NetName=SW1 Pin=U1-25

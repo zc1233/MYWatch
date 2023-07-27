@@ -1,0 +1,7 @@
+Change Component Comment : Designator=R5 Old Comment=2.2K New Comment=1K
+Change Component Comment : Designator=R7 Old Comment=2.2K New Comment=1K
+Change Component Comment : Designator=R4 Old Comment=240K New Comment=10K
+Change Component Comment : Designator=R6 Old Comment=240K New Comment=10K
+Change Component Comment : Designator=R8 Old Comment=240K New Comment=10K
+Added Room: Name=MCU
+Added Room: Name=power
