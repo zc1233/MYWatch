@@ -1,0 +1,3 @@
+Change Pin Designator/Name:  Old Designator=U1-25 Old Name=PB12/SPI2_NSS New Designator =PB14/SPI2_MISO/TIM1_CH2N New Name=27
+Change Pin Designator/Name:  Old Designator=U1-26 Old Name=PB13/SPI2_SCK/TIM1_CH1N New Designator =PB12/SPI2_NSS New Name=25
+Change Pin Designator/Name:  Old Designator=U1-27 Old Name=PB14/SPI2_MISO/TIM1_CH2N New Designator =PB13/SPI2_SCK/TIM1_CH1N New Name=26
