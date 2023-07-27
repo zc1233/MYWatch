@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=POWER_ON Pin=U1-12
+Change Component Comment : Designator=R3 Old Comment=22K New Comment=10K
+Added Pin To Net: NetName=POWER_ON Pin=U1-10
+Added Member To Class: ClassName=power Member=Component V1 XC6206P332MR
+Added Room: Name=MCU
+Added Room: Name=power

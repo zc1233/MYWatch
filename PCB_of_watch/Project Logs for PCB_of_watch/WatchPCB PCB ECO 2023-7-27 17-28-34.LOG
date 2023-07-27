@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=R7 Old Footprint=R0603 New Footprint=R_0603
+Change component parameters: Designator = "R7" ("R7"); Footprint = "R0603"; UniqueID = "\GBUXDZHR" ("\GBUXDZHR")
+Added Room: Name=MCU
+Added Room: Name=power

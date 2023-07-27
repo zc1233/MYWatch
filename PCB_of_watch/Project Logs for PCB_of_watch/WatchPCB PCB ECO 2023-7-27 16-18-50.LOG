@@ -1,0 +1,61 @@
+Removed Pin From Net: NetName=GND Pin=C5-1
+Removed Pin From Net: NetName=GND Pin=H3-1
+Removed Pin From Net: NetName=CLK Pin=H3-2
+Removed Pin From Net: NetName=DIO Pin=H3-3
+Removed Pin From Net: NetName=3V3 Pin=H3-4
+Removed Pin From Net: NetName=3V3 Pin=R12-2
+Removed Pin From Net: NetName=GND Pin=SW2-1
+Removed Pin From Net: NetName=GND Pin=SW2-2
+Removed Pin From Net: NetName=GND Pin=SW2-5
+Removed Pin From Net: NetName=GND Pin=SW2-6
+Removed Member From Class: ClassName=MCU Member=C5
+Removed Member From Class: ClassName=MCU Member=H3
+Removed Member From Class: ClassName=MCU Member=R12
+Removed Member From Class: ClassName=MCU Member=SW2
+Added Component: Designator=C18(C_0603)
+Added Component: Designator=C19(C_0603)
+Added Component: Designator=C20(C_0603)
+Added Component: Designator=C21(C_0603)
+Added Component: Designator=C22(C_0603)
+Added Component: Designator=C23(C_0603)
+Added Component: Designator=U2(H_USB_Mini_A)
+Added Component: Designator=V3(SOT23-3N)
+Add component (AddParameter): Name = "BOM名称"; Value = "低压差线性稳压芯片"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SW1 Pin=C18-1
+Added Pin To Net: NetName=GND Pin=C18-2
+Added Pin To Net: NetName=GND Pin=C19-1
+Added Pin To Net: NetName=SW3 Pin=C19-2
+Added Pin To Net: NetName=GND Pin=C20-1
+Added Pin To Net: NetName=SW2 Pin=C20-2
+Added Pin To Net: NetName=GND Pin=C21-1
+Added Pin To Net: NetName=GND Pin=C22-1
+Added Pin To Net: NetName=VBIN Pin=C22-2
+Added Pin To Net: NetName=GND Pin=C23-1
+Added Pin To Net: NetName=3V3 Pin=C23-2
+Added Pin To Net: NetName=5V Pin=U2-1
+Added Pin To Net: NetName=DIO Pin=U2-2
+Added Pin To Net: NetName=CLK Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U2-5
+Added Pin To Net: NetName=GND Pin=V3-1
+Added Pin To Net: NetName=3V3 Pin=V3-2
+Added Pin To Net: NetName=VBIN Pin=V3-3
+Change Net Name : Old Net Name=BOOT0 New Net Name=NetR11_2
+Added Pin To Net: NetName=NetC21_2 Pin=C21-2
+Added Pin To Net: NetName=NetC21_2 Pin=DZx1-3
+Added Pin To Net: NetName=NetC21_2 Pin=SW1-2
+Added Net: Name=NetC21_2
+Added Pin To Net: NetName=NetIC2_3 Pin=IC2-3
+Added Pin To Net: NetName=NetIC2_3 Pin=R13-1
+Added Net: Name=NetIC2_3
+Added Member To Class: ClassName=MCU Member=Component C18 104
+Added Member To Class: ClassName=MCU Member=Component C19 104
+Added Member To Class: ClassName=MCU Member=Component C20 104
+Added Member To Class: ClassName=power Member=Component C21 104
+Added Member To Class: ClassName=power Member=Component C22 104
+Added Member To Class: ClassName=power Member=Component C23 104
+Added Member To Class: ClassName=power Member=Component U2 H_USB_Mini
+Added Member To Class: ClassName=power Member=Component V3 XC6206P332MR
+Added Room: Name=MCU
+Added Room: Name=power

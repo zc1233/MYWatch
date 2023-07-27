@@ -1,0 +1,13 @@
+Remove Pin=POWER-IN-2 From Net=DIO
+Remove Pin=POWER-IN-3 From Net=CLK
+Change Component Footprint: Designator=POWER-IN Old Footprint=MicroUSB£¨Ö±²å£© New Footprint=TYPE-6P-³Á°å
+Change Component Comment: Designator=R2 Old Comment=1.6k New Comment=2K
+Change Component Comment: Designator=R5 Old Comment=1K New Comment=2.2K
+Change Component Comment: Designator=R7 Old Comment=1K New Comment=2.2K
+Change Component Comment: Designator=R3 Old Comment=10K New Comment=22K
+Change Component Comment: Designator=R4 Old Comment=10K New Comment=240K
+Change Component Comment: Designator=R6 Old Comment=10K New Comment=240K
+Change Component Comment: Designator=R8 Old Comment=10K New Comment=240K
+Change Component Comment: Designator=POWER-IN Old Comment=MicroUSB£¨Ö±²å£© New Comment=TYPE-C-6P
+Change Pin Designator/Name:  Old Designator=U1-25 Old Name=PB12/SPI2_NSS New Designator =PB14/SPI2_MISO/TIM1_CH2N New Name=27
+Change Pin Designator/Name:  Old Designator=U1-27 Old Name=PB14/SPI2_MISO/TIM1_CH2N New Designator =PB12/SPI2_NSS New Name=25
